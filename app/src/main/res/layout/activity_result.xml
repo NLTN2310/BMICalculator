@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="14dp"
+    tools:context=".ResultActivity">
+
+    <TextView
+        android:layout_marginTop="16dp"
+        android:text="Your Body Mass index is: "
+        android:textStyle="bold"
+        android:textColor="@color/purple_700"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/textview_result"
+        android:layout_width="match_parent"
+        android:textAlignment="center"
+        android:padding="16dp"
+        android:layout_height="wrap_content"
+        tools:text="Hello, world"
+        android:maxLength="4"
+        android:textSize="38sp"/>
+
+    <TextView
+        android:id="@+id/textview_classification"
+        tools:text="Classification: Abaixo do peso"
+        android:textSize="22sp"
+        android:layout_margin="8dp"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="22sp"
+        android:textStyle="italic"
+        android:layout_margin="34dp"
+        android:textAlignment="center"
+        android:text="BMI weight ranges:"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:layout_margin="6dp"
+        android:textAlignment="center"
+        android:text="Less than 18.5 = Underweight"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:layout_margin="6dp"
+        android:textAlignment="center"
+        android:text="Between 18.6 - 24.9 = Healthy Weight"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:layout_margin="6dp"
+        android:textAlignment="center"
+        android:text="Between 25 - 29.9 = Overweight"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:layout_margin="6dp"
+        android:textAlignment="center"
+        android:text="Between 30 - 39.9 = Obese"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:layout_margin="6dp"
+        android:textAlignment="center"
+        android:text="Over 40 = Severe Obesity"/>
+
+
+</LinearLayout>
